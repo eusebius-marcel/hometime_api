@@ -1,26 +1,26 @@
 # README
 
-* Ruby version
-2.7.4
+* Ruby version: 2.7.4
+* System dependencies: MySQL 8.0
 
-* System dependencies
-MySQL 8.0
-
-* Configuration
-Run this command on this repo folder to install dependencies
-`bundle install`
-
-* Database creation and initialization
-Run this command on this repo folder to create and initialize database
+## How to setup
+1. Install specified ruby version above and the system dependencies
+1. Clone this repo
+1. Install dependencies by running `bundle install` on this repo folder
+1. Create and initialize database by running this command on this repo folder
 ```
 rails db:create
 rails db:migrate
 ```
 
-* How to run the test suite
+## How to run the application
+Run this command on this repo folder
+```
+rails s
+```
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## How to run the test suite
+Run this command on this repo folder
+```
+bundle exec rspec
+```
