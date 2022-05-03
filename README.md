@@ -1,19 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
 * Ruby version
+2.7.4
 
 * System dependencies
+MySQL 8.0
 
 * Configuration
+Run this command on this repo folder to install dependencies
+`bundle install`
 
-* Database creation
-
-* Database initialization
+* Database creation and initialization
+Run this command on this repo folder to create and initialize database
+```
+rails db:create
+rails db:migrate
+```
 
 * How to run the test suite
 
